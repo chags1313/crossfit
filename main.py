@@ -30,7 +30,7 @@ def main(page: ft.Page):
     def add_event(e):
         pass
     
-    
+    page.theme = theme.Theme(color_scheme_seed='#F8931B')
     page.theme_mode = ft.ThemeMode.LIGHT #other options include LIGHT and SYSTEM
     title_text = ft.Text("My Fancy Application")
     page.appbar = ft.AppBar(
