@@ -47,4 +47,4 @@ def main(page: ft.Page):
     )
     page.floating_action_button = ft.FloatingActionButton(text = "Add Entry", icon=ft.icons.ADD, on_click=add_event)
     page.add(ft.Text(""))
-ft.app(main)
+ft.app(main, assets_dir="assets")
