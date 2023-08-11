@@ -1,6 +1,5 @@
 import flet as ft
 
-
 def main(page: ft.Page):
     def page_change(e):
         if len(page.controls) > 0:
