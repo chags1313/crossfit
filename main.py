@@ -821,4 +821,4 @@ def main(page: ft.Page):
     page.update()
 
 
-ft.app(target=main, port=os.getenv("PORT"), route_url_strategy="path"))
+ft.app(target=main)
