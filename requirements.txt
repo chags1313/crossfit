@@ -1,5 +1,3 @@
 flet
-mediapipe
-opencv-python
 pandas
 numpy
