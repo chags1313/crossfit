@@ -208,4 +208,4 @@ def main(page: ft.Page):
     )
     date_box, date_text = home_page(ft.Page)
 
-ft.app(main, ft.WEB_BROWSER)
+ft.app(main)
