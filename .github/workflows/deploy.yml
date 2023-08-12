@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "old-shark-71"
-          entrypoint: "index.js" # 📝 Update the entrypoint if necessary
+          entrypoint: "dist/index.html" # 📝 Update the entrypoint if necessary
           root: "." # 📝 Update the root if necessary
